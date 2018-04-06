@@ -31,7 +31,25 @@ p {
 	max-height: 500px;
 }
 
+.main-layout {
+	z-index: 1;
+}
 
+.message-container{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.7);
+	min-height: 100vh;
+	min-width: 100vw;
+	z-index: 2;
+}
+
+.message {
+	height: 400px;
+	width: 300px;
+	border-radius: 1%;
+	background-color: white;
+	transform: translate(160%, 50%);
+}
 
 /*
 
