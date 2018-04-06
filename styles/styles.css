@@ -19,7 +19,7 @@ body {
 
 p {
 	font-family: Roboto Light;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.3px; 
 }
 
 .p-10 {
@@ -44,15 +44,87 @@ p {
 }
 
 .message {
-	height: 400px;
-	width: 300px;
+	height: 425px;
+	width: 375px;
 	border-radius: 1%;
 	background-color: white;
-	transform: translate(160%, 50%);
+	margin: 0 auto;
+	margin-top: 10%;
+	font-family: Roboto Light;
+}
+.message p {
+	color: #3d4b52;
+	text-align: left;
+	font-size: 14px;
+	
 }
 
-/*
+.message h2 {
+	font-size: 20px;
+	font-family: Roboto Regular;
+	margin-top: 2%;
+	letter-spacing: 0.5px;
+	}
 
+.message-header {
+	background-color: #f1f6f7;
+	border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+	height: 80px;
+}
+
+.message .btn {
+	width: 100%;
+	margin-top: 5%;
+}
+
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							padding-left:23px;
+							height:18px; 
+							display:inline-block;
+							line-height:18px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size: 15px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -18px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_01b1e4da6bcddccc07b53ec928b275f3.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+.check-container {
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+
+
+
+
+.name {
+	background: url("../images/icons/human.png") no-repeat right 15px center;
+}
+.phone {
+	background: url("../images/icons/dark-phone.png") no-repeat right 15px center;
+}
+/*
+q
 Upper Header (logo and contacts)
 
 */
@@ -117,18 +189,18 @@ Upper Header (logo and contacts)
 
 }
 
-.contacts .btn {
+ .btn {
 	height: 40px;
 	width: 180px;
 	font-size: 15px;
 	border-radius: 6px;
 }
 
-.contacts .btn-primary {
+ .btn-primary {
 	background-color: #33a9d9;
 }
 
-.contacts .btn-primary:hover {
+.btn-primary:hover {
 	background-color: #2092c0;
 }
 
